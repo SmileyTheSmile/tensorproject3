@@ -1,0 +1,154 @@
+body {
+    max-height: 1024px;
+    max-width: 1440px;
+    font-family: Roboto;
+    font-style: normal;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #37ABFF;
+}
+
+header #title{
+    margin: 26px 40px;
+    width: 251px;
+    height: 28px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.header-menus {
+    display: flex;
+}
+
+.header-circle{
+    background-color: #59B9FF;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.wrapper{
+    display: flex;
+}
+
+#courses-menu{
+    display: flex;
+    flex-direction: column;
+    background-color: #EDEDED;
+    height: 100%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.menu-part{
+    margin-left:-40px;
+    color: #464646;
+}
+
+.menu-part:hover{
+    background: #DCDCDC;
+    cursor: pointer;
+}
+
+.menu-part-text{
+    padding: 20px 40px 20px 40px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+article {
+    display: inline-flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.lesson-box{
+    width: 230px;
+    height: 340px;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #F3F3F3;
+}
+.lesson-image{
+    margin:0;
+    width: 100%;
+    height: 110px;
+    object-fit: cover;
+}
+
+.lesson-title{
+    margin:0;
+    font-size: 16px;
+    padding: 0 10px;
+}
+
+.lesson-date{
+    margin: 0;
+    font-size: 10px;
+    color: #ABABAB;
+    padding: 5px 10px;
+}
+
+.lesson-description{
+    margin: 0;
+    padding: 0 10px 10px;
+    font-size: 12px;
+}
+
+.lesson-link{
+    margin: 0;
+    background: #DCDCDC;
+    line-height: 40px;
+    text-align: center;
+    color: #464646;
+    font-weight: bold;
+}
+
+#more-button{
+    text-align: center;
+    width: 136px;
+    margin: 010px auto;
+    padding: 20px 40px;
+    background: #37ABFF;
+    border-radius: 8px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+footer{
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 5px 30px;
+    background: #3C3C3C;
+    width: 100%;
+    grid-column: 1/3;
+    align-items: center;
+    font-size: 14px;
+    color: white;
+}
+
+#rules{
+    margin: 0;
+    color: white;
+}
